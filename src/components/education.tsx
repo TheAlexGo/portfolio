@@ -2,7 +2,7 @@ import { resume } from '@/data/resume';
 
 export function Education() {
   return (
-    <ol className="space-y-5 print:space-y-1.5">
+    <ol className="space-y-5 print:space-y-2">
       {resume.education.map(item => (
         <li
           key={item.title}

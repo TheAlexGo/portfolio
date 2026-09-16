@@ -137,7 +137,7 @@
 
 @page {
   size: A4;
-  margin: 10mm 12mm;
+  margin: 8mm 12mm;
 }
 
 @media print {
@@ -164,7 +164,7 @@
 
   /* Scale all rem-based sizes down ~16% */
   html {
-    font-size: 84%;
+    font-size: 80%;
   }
 
   html,

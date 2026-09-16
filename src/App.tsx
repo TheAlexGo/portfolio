@@ -23,14 +23,12 @@ function App() {
         <Section id="skills" title="Навыки">
           <Skills />
         </Section>
-        <div className="print:grid print:grid-cols-2 print:items-start print:gap-8">
-          <Section id="education" title="Образование">
-            <Education />
-          </Section>
-          <Section id="languages" title="Языки">
-            <Languages />
-          </Section>
-        </div>
+        <Section id="education" title="Образование">
+          <Education />
+        </Section>
+        <Section id="languages" title="Языки">
+          <Languages />
+        </Section>
       </main>
       <SiteFooter />
     </div>

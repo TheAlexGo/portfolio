@@ -15,7 +15,7 @@ export function Hero() {
   const { meta, contacts, heroStats } = resume;
 
   return (
-    <section aria-label="Визитка" className="pt-12 pb-6 md:pt-16 print:pt-0 print:pb-1">
+    <section aria-label="Визитка" className="pt-12 pb-6 md:pt-16 print:pt-0 print:pb-2.5">
       <div className="grid gap-10 md:grid-cols-[minmax(0,1fr)_220px] md:items-center print:grid-cols-[minmax(0,1fr)_21mm] print:gap-4">
         <div>
           <h1 className="text-4xl font-semibold tracking-tight text-balance md:text-5xl print:text-3xl">
@@ -28,7 +28,7 @@ export function Hero() {
             {' '}
             {meta.tagline}
           </p>
-          <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground print:mt-1.5 print:text-xs">
+          <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground print:mt-2 print:text-xs">
             {contacts.map((contact) => {
               const Icon = CONTACT_ICONS[contact.icon];
               const content = (
@@ -63,7 +63,7 @@ export function Hero() {
         />
       </div>
 
-      <dl className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-4 print:mt-1.5 print:grid-cols-4 print:gap-3 print:overflow-visible print:rounded-none print:border-0 print:bg-transparent">
+      <dl className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-4 print:mt-2.5 print:grid-cols-4 print:gap-3 print:overflow-visible print:rounded-none print:border-0 print:bg-transparent">
         {heroStats.map(stat => (
           <div key={stat.label} className="bg-background p-4 print:flex print:items-baseline print:gap-1.5 print:bg-transparent print:p-0">
             <dd className="text-2xl font-semibold tracking-tight print:text-base">{stat.value}</dd>

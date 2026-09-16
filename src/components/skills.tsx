@@ -6,7 +6,7 @@ export function Skills() {
       {resume.skills.map(group => (
         <div
           key={group.group}
-          className="grid gap-2 py-4 first:pt-0 last:pb-0 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6 print:break-inside-avoid print:py-1"
+          className="grid gap-2 py-4 first:pt-0 last:pb-0 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6 print:break-inside-avoid print:py-0.5"
         >
           <dt className="text-xs font-semibold tracking-[0.11em] uppercase text-muted-foreground sm:pt-0.5">
             {group.group}
