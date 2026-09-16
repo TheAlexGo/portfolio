@@ -13,7 +13,7 @@ export function Section({ id, title, children, className }: SectionProps) {
     <section
       id={id}
       className={cn(
-        'scroll-mt-20 border-t border-border py-10 md:py-14 print:break-inside-auto print:py-2',
+        'scroll-mt-20 border-t border-border py-10 md:py-14 print:break-inside-auto print:py-4',
         className,
       )}
     >
