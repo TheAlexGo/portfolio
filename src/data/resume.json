@@ -1,0 +1,142 @@
+
+{
+    "meta": {
+        "name": "Александр Гордеев",
+        "headline": "Senior Frontend Developer",
+        "tagline": "React · TypeScript · Frontend Architecture",
+        "photo": "/selfie.webp",
+        "location": "Санкт-Петербург"
+    },
+    "contacts": [
+        { "label": "alex280702@mail.ru", "href": "mailto:alex280702@mail.ru", "icon": "mail" },
+        { "label": "+7 951 674-24-89", "href": "tel:+79516742489", "icon": "phone" },
+        { "label": "Telegram @TheAlexGo", "href": "https://t.me/TheAlexGo", "icon": "telegram" },
+        { "label": "portfolio.thealexgo.ru", "href": "https://portfolio.thealexgo.ru", "icon": "globe" },
+        { "label": "Санкт-Петербург", "icon": "map-pin" }
+    ],
+    "heroStats": [
+        { "value": "6+", "label": "лет коммерческого опыта" },
+        { "value": "4×", "label": "быстрее сборка BDUI-интерфейсов" },
+        { "value": "−20%", "label": "Lead Time с Design System" },
+        { "value": "8", "label": "человек в кросс-функциональной команде" }
+    ],
+    "summary": [
+        "Senior Frontend Developer с **6+ годами коммерческого опыта** в React/TypeScript, frontend-архитектуре и платформенной разработке.",
+        "Проектирую frontend-платформы и developer tooling для крупного продукта: Backend-Driven UI, дизайн-систему, SSR/BFF-инфраструктуру, внутренние CLI и инструменты разработки. Веду решения от system design и технической декомпозиции до production rollout и измерения результата.",
+        "Совмещаю непосредстенную разработку с техническим лидерством, менторингом и координацией кросс-функциональных команд. Использую AI-assisted и agentic development как часть инженерного workflow с обязательным планированием, review и TDD."
+    ],
+    "experience": [
+        {
+            "company": "VK · Одноклассники",
+            "url": "https://vk.company/ru/",
+            "position": "Senior Frontend Developer",
+            "period": {
+                "start": "Ноябрь 2021",
+                "end": "настоящее время",
+                "duration": "4 года 11 месяцев"
+            },
+            "meta": "Platform Engineering · React · TypeScript · BDUI · SSR · BFF · Design Systems",
+            "highlights": [
+                "Спроектировал и разработал low-code редактор Backend-Driven UI для JSON-контрактов объёмом **5000+ строк**: дерево компонентов, граф зависимостей, инспектор свойств и live preview. Сократил сборку полноценного UI-контракта **с 4 часов до 1 часа**, устранив необходимость вручную сверяться с документацией компонентов и проверять результат только в запущенном приложении.",
+                "Спроектировал BDUI-платформу для web-интерфейсов Одноклассников: единый runtime, **31 компонент**, **35 шаблонов** и поддержка **12 типов** продуктовых интерфейсов. Для сценариев, где необходимые компоненты и actions уже доступны в runtime, сократил delivery нового или изменённого UI **с 1 недели до 1 рабочего дня** за счёт серверного управления интерфейсом без выпуска клиентского кода.",
+                "Возглавил frontend-разработку интеграции VK Клипов в ленту для аудитории около **20 млн пользователей**: сформировал кросс-функциональную команду из 5 человек и вёл проект от system design и декомпозиции до A/B-эксперимента и production rollout. Эксперимент увеличил продуктовую метрику Time Spent в ленте **на 5%**.",
+                "Инициировал и технически возглавил «Подборки 2.0» для аудитории около **20 млн пользователей**: сформировал кросс-функциональную команду из 8 человек и за **3 месяца** провёл проект от архитектуры и декомпозиции до production. После запуска количество страниц, представленных в поисковой выдаче, выросло **на 42%**, а переходы из поисковых систем в сервис Одноклассники — **на 15%**.",
+                "Заложил архитектурную основу корпоративной дизайн-системы, используемой примерно **10 продуктовыми командами**: сформировал принципы API и композиции компонентов, самостоятельно реализовал **24 компонента**, провёл **30+ code review** и внедрил **20+ улучшений**. По внутренней модели Lead Time переход на единый компонентный стек снизил показатель **с 28 до 22,8 дня — примерно на 20%**.",
+                "Автоматизировал bootstrap frontend-приложений через внутренние CLI, project templates и CI/CD-интеграции; сократил создание проекта и инфраструктурную настройку **с 4 дней до 15 минут**.",
+                "Развиваю platform-функциональность крупного frontend-продукта на стыке React, SSR, BFF и Java/Spring-интеграций. Проектирую общие решения для нескольких продуктовых команд, менторил 4 frontend-разработчиков и регулярно участвую в code review.",
+                "Внедрил AI-assisted / agentic development в **7 внутренних проектов**: разработал около **10 reusable AI skills** и **3 MCP-интеграции**. Примерно в **60% implementation-задач** использую coding agents в workflow, включающем подготовку и review плана, TDD-реализацию, функциональную проверку и обязательный code review результата."
+            ]
+        },
+        {
+            "company": "Stream Telecom",
+            "url": "https://stream-telecom.ru/",
+            "position": "Fullstack React + PHP",
+            "period": {
+                "start": "Август 2021",
+                "end": "Ноябрь 2021",
+                "duration": "4 месяца"
+            },
+            "highlights": [
+                "Разрабатывал интерфейсы сервиса Operator Chat на React/Redux, интеграции с REST API и backend-функциональность на PHP; реализовывал задачи end-to-end и участвовал в проектировании и выпуске функциональности в production."
+            ]
+        },
+        {
+            "company": "Site-Master",
+            "position": "Технический специалист · Верстальщик · Frontend",
+            "period": {
+                "start": "Июнь 2020",
+                "end": "Август 2021",
+                "duration": "1 год 3 месяца"
+            },
+            "highlights": [
+                "Разрабатывал адаптивные web-интерфейсы и клиентскую логику на JavaScript, HTML и CSS; реализовывал backend-функциональность на PHP/Node.js и дорабатывал CMS-проекты."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "group": "Core",
+            "items": [
+                "React",
+                "TypeScript",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "group": "Architecture",
+            "items": [
+                "Frontend Architecture",
+                "System Design",
+                "Backend-Driven UI",
+                "Design Systems",
+                "SSR",
+                "BFF"
+            ]
+        },
+        {
+            "group": "Engineering",
+            "items": [
+                "Vite",
+                "Webpack",
+                "Vitest",
+                "React Testing Library",
+                "Playwright",
+                "TDD",
+                "Accessibility",
+                "CI/CD",
+                "Docker",
+                "Git",
+                "Developer Tooling",
+                "Node.js"
+            ]
+        },
+        {
+            "group": "Backend & AI",
+            "items": [
+                "Java / Spring (BFF & integrations)",
+                "MCP",
+                "AI-assisted Development",
+                "Agentic Development"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "title": "СПбГУТ им. проф. М.А. Бонч-Бруевича",
+            "subtitle": "Институт непрерывного образования · Автоматизация технологических процессов и производств",
+            "year": "2027 · ожидаемый выпуск"
+        },
+        {
+            "title": "Karpov.Courses",
+            "subtitle": "Курс Front-end для middle-разработчиков",
+            "year": "2023"
+        }
+    ],
+    "languages": [
+        { "name": "Русский", "level": "родной" },
+        { "name": "English", "level": "B1" },
+        { "name": "日本語", "level": "A1" }
+    ]
+}
