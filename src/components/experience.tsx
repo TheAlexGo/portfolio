@@ -3,7 +3,7 @@ import { resume } from '@/data/resume';
 
 export function Experience() {
   return (
-    <ol className="space-y-10 print:space-y-4">
+    <ol className="space-y-10 print:space-y-2">
       {resume.experience.map(job => (
         <li
           key={job.company}
@@ -36,8 +36,8 @@ export function Experience() {
                   )}
             </h3>
             <p className="mt-0.5 text-sm text-muted-foreground">{job.position}</p>
-            {job.meta && <p className="mt-1.5 text-xs text-muted-foreground/80">{job.meta}</p>}
-            <ul className="mt-4 space-y-2.5 print:mt-2 print:space-y-1">
+            {job.meta && <p className="mt-1.5 text-xs text-muted-foreground/80 print:mt-1">{job.meta}</p>}
+            <ul className="mt-4 space-y-2.5 print:mt-0.5 print:space-y-0">
               {job.highlights.map(highlight => (
                 <li
                   key={highlight.slice(0, 60)}

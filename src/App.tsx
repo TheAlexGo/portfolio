@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
-      <main id="top" className="mx-auto max-w-3xl px-6">
+      <main id="top" className="mx-auto max-w-3xl px-6 print:px-0">
         <Hero />
         <Section id="profile" title="Профиль">
           <Profile />
@@ -23,12 +23,14 @@ function App() {
         <Section id="skills" title="Навыки">
           <Skills />
         </Section>
-        <Section id="education" title="Образование">
-          <Education />
-        </Section>
-        <Section id="languages" title="Языки">
-          <Languages />
-        </Section>
+        <div className="print:grid print:grid-cols-2 print:items-start print:gap-8">
+          <Section id="education" title="Образование">
+            <Education />
+          </Section>
+          <Section id="languages" title="Языки">
+            <Languages />
+          </Section>
+        </div>
       </main>
       <SiteFooter />
     </div>
