@@ -12,7 +12,13 @@ function App() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SiteHeader />
-      <main id="top" className="mx-auto max-w-3xl px-6 print:px-0">
+      <main
+        id="top"
+        className="
+          mx-auto max-w-3xl px-6
+          print:px-0
+        "
+      >
         <Hero />
         <Section id="profile" title="Профиль">
           <Profile />

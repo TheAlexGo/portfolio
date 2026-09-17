@@ -19,7 +19,11 @@ export function RichText({ text, as: Tag = 'span', className }: RichTextProps) {
           ),
           em: ({ children }) => <em>{children}</em>,
           code: ({ children }) => (
-            <code className="rounded-md bg-muted px-1 py-px font-mono text-[0.85em] text-foreground">
+            <code className="
+              rounded-md bg-muted px-1 py-px font-mono text-[0.85em]
+              text-foreground
+            "
+            >
               {children}
             </code>
           ),
@@ -28,7 +32,11 @@ export function RichText({ text, as: Tag = 'span', className }: RichTextProps) {
               href={href}
               target="_blank"
               rel="noreferrer"
-              className="font-medium text-foreground underline decoration-border underline-offset-4 transition-colors hover:decoration-foreground"
+              className="
+                font-medium text-foreground underline decoration-border
+                underline-offset-4 transition-colors
+                hover:decoration-foreground
+              "
             >
               {children}
             </a>
