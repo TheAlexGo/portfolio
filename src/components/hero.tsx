@@ -51,7 +51,8 @@ export function Hero() {
             {meta.tagline}
           </p>
           <ul className="
-            mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground
+            mt-6 grid grid-cols-1 gap-x-5 gap-y-2 text-sm text-muted-foreground
+            sm:grid-cols-2
             print:mt-2 print:text-xs
           "
           >

@@ -11,7 +11,7 @@ export function Skills() {
             first:pt-0
             last:pb-0
             sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6
-            print:break-inside-avoid print:py-0.5
+            print:break-inside-avoid print:py-2
           "
         >
           <dt className="

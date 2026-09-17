@@ -71,7 +71,7 @@ export function Experience() {
             )}
             <ul className="
               mt-4 space-y-2.5
-              print:mt-0 print:space-y-0
+              print:mt-2 print:space-y-1
             "
             >
               {job.highlights.map(highlight => (
